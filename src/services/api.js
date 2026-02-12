@@ -79,7 +79,7 @@ export const contentFilterService = {
       console.error('❌ Please replace <YOUR_FUNCTION_APP_NAME> with your actual Function App name in api.js');
       return Promise.reject(new Error('Function API URL not configured'));
     }
-    return functionApi.post('/filter_comment', { comment }).then(res => res.data);
+    return functionApi.post('/filter_comment/', { comment }).then(res => res.data);
   },
 };
 
