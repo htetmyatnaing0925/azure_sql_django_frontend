@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'naing-backend-hubzfteqgpbre0dq.southeastasia-01.azurewebsites.net/api',
+  baseURL:  'naing-backend-hubzfteqgpbre0dq.southeastasia-01.azurewebsites.net/api',
   // baseURL: 'http://127.0.0.1:8000/api', 
   headers: {
     'Content-Type': 'application/json',
